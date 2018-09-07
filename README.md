@@ -26,7 +26,7 @@ This dataset has three images (Left, Center and Right) for every timestamp with 
 
 ## Training the model
 
-The model achieves good results by just training the model for 5 epoch. We use mean squared error as our cost function. The model is trained on 80% of the data and the mean square error for the test data is 0.8%. Let's see how it performs on our dataset.
+The model achieves good results by just training the model for 5 epoch. We use mean squared error as our cost function. The model is trained on 80% of the data and the mean square error for the test data is 0.8%. Let's see how it performs on our dataset (The output shown below is an edited GIF with more number of frames per second).
 
 ![](demo.gif)
 
