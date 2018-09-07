@@ -24,7 +24,7 @@ The architecture is inspired by this [NVIDIA paper](https://arxiv.org/abs/1604.0
 
 This dataset has three images (Left, Center and Right) for every timestamp with the same steering angle. But the model inputs only one image for each steering angle. Hence for the left and right images we alter the steering angle by an alpha value. This helps us to increasing the dataset by three times. After this, we perform data augmentation by mirroring each image and it's steering angles. This again increases the dataset by two times.
 
-# Training the model
+## Training the model
 
 The model achieves good results by just training the model for 5 epoch. We use mean squared error as our cost function. The model is trained on 80% of the data and the mean square error for the test data is 0.8%. Let's see how it performs on our dataset.
 
