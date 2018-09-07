@@ -14,11 +14,11 @@ This CNN model is implemented using TensorFlow framework.
 pip install tensorflow
 ```
 
-Please check the requirements.txt file for all the packages whcih you need to install. Most of the packages can be installed using the pip package manager.
+Please check the requirements.txt file for all the packages which you need to install. Most of the packages can be installed using the pip package manager.
 
 ## CNN Architecture
 
-The architecture is inspired by this [NVIDIA paper](https://arxiv.org/abs/1604.07316) on End to End Learning for Self-Driving Cars. But since our dataset is not very much complex, we just used a simple architecture than what was implemented in that paper. The architecture consists of three convolutional layers with a kernal size of 3 x 3 with no strides and followed by three fully connected layers. The convolutional layers may perform as feature extractions and the the fully connected layers may function as a controller for steering.
+The architecture is inspired by this [NVIDIA paper](https://arxiv.org/abs/1604.07316) on End to End Learning for Self-Driving Cars. But since our dataset is not very much complex, we just used a simple architecture than what was implemented in that paper. The architecture consists of three convolutional layers with a kernel size of 3 x 3 with no strides and followed by three fully connected layers. The convolutional layers may perform as feature extractions and the the fully connected layers may function as a controller for steering.
 
 ## Data Preprocessing
 
